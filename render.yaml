@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: mevjswebhook
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 24.14.1
+      - key: BOT_TOKEN
+        sync: false
+      - key: GROUP_CHAT_ID
+        sync: false
+      - key: WEBHOOK_URL
+        sync: false

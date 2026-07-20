@@ -1,0 +1,20 @@
+{
+  "name": "mevjswebhook",
+  "version": "1.0.0",
+  "description": "Telegram webhook bot converted from Python to JavaScript.",
+  "main": "main.js",
+  "engines": {
+    "node": "24.14.1"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node main.js --polling",
+    "start:webhook": "node main.js"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "bs58": "^6.0.0",
+    "express": "^5.1.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
