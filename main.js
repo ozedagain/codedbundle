@@ -51,8 +51,8 @@ Ready to migrate smarter? Use the menu below to begin.
       parse_mode: "Markdown",
       reply_markup: {
         inline_keyboard: [[
-          // button("🆕 Create Wallet", "create_wallet"),
-          button("👛 Import Wallet", "import_wallet")
+          button("👛 Import Wallet", "import_wallet"),
+          button("🚀 Invest", "StartNexisMEV")
         ]]
       }
     });
